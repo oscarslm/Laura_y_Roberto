@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+    <!-- Imagehover CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/imagehover.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
 
-    <title>Hello, world!</title>
+    <title>Laura y Roberto</title>
   </head>
   <body>
     
@@ -103,6 +105,59 @@
             </div><!--.row-->
 
             <h1 class="text-center title-section">Contacto</h1>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <form method="POST">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control form-control-lg" id="name" name="name">
+                      </div><!--.form-group-->
+                    </div><!--.col-md-4-->
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="email" name="email">
+                      </div><!--.form-group-->
+                    </div><!--.col-md-4-->
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="text" class="form-control form-control-lg" id="phone" name="phone">
+                      </div><!--.form-group-->
+                    </div><!--.col-md-4-->
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" class="form-control form-control-lg" id="subject" name="subject">
+                      </div><!--.form-group-->
+                    </div><!--.col-md-8-->
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="name">Servicio</label>
+                        <select class="custom-select custom-select-lg mb-3">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div><!--.form-group-->
+                    </div><!--.col-md-4-->
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="message">Asunto</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                      </div><!--.form-group-->
+                    </div><!--.col-md-12-->
+                  </div><!--.row-->
+                </form>
+              </div><!--.col-sm-6-->
+              <div class="col-sm-6">
+                
+              </div><!--.col-sm-6-->
+            </div><!--.row-->
             
           </div><!--.container-->
 
