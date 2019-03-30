@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Laura y Roberto
+	Theme URI: http://localhost
+	Description: Sitio Web de Laura y Roberto
+	Author: Oscar López
+	Author URI: http://localhost
+	Version: 1.0.0
+
+-----------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------
+	Font
+-----------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+
+
+/* ----------------------------------------------------------------
+	General CSS
+-----------------------------------------------------------------*/
+
+::selection {
+	background-color: #3d3935;
+	color: #FFFFFF;
+}
+
+::-moz-selection { /* Code for Firefox */
+  	background-color: #3d3935;
+	color: #FFFFFF;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+	float: none;
+	background-color: transparent;
+	position: relative;
+	overflow-x: hidden;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-wrap {
+	position: relative;
+    padding: 80px 0;
+}
+
+.center-vertically {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
