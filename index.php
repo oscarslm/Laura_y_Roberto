@@ -11,19 +11,21 @@
     <link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
     <!-- Imagehover CSS -->
     <link rel="stylesheet" type="text/css" href="./css/imagehover.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
 
     <title>Laura y Roberto</title>
   </head>
-  <body class="animated fadeIn" id="section_1">
+  <body class="animated fadeIn">
     
     <div id="wrapper">
 
       <header id="header" class="fixed-top">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Laura y Roberto</a>
+            <a class="navbar-brand" href="./">Laura y Roberto</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,6 +78,29 @@
       <section id="content">
 
         <div class="content-wrap pt-0">
+
+          <section id="section_1">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="container">
+                  <h5>Soy Roberto</h5>
+                  <p>¡Hola! Mi nombre es Roberto Franco Briones y soy maestro en Ingeniería en Imagen Pública, profesión que he escogido porque soy un apasionado de la comunicación en todas sus formas. A lo largo de mi trayectoria me he enfocado a ayudar a mejorar los estímulos que lanzamos. ¡Será un gusto trabajar contigo y aprender de ti!</p>
+                </div><!--.container-->
+              </div><!--.col-sm-4-->
+              <div class="col-sm-4">
+                <div class="container">
+                  <h5>Soy Laura</h5>
+                  <p>¿Cómo estás? Mi nombre es Laura Saavedra Granja, soy maestra en Ingeniería en Imagen Pública y estoy convencida de que para destacar y alcanzar todos nuestros sueños y metas es fundamental confiar y estar enamorado de nosotros mismos y de todo lo que hacemos. Por esta razón, elegí el camino de la imagen: para ayudar a las personas a potenciar sus cualidades y capacidades.</p>
+                </div><!--.container-->
+              </div><!--.col-sm-4-->
+              <div class="col-sm-4">
+                <div class="container">
+                  <h5>¿Por qué es importante cuidar los estímulos que lanzamos?</h5>
+                  <p>A través de la imagen puedes generar la confianza y credibilidad necesarias frente a tu jefe, clientes, proveedores e incluso, amigos y familiares, y abrirte las puertas que necesitas para alcanzar todas las metas que te propongas.</p>
+                </div><!--.container-->
+              </div><!--.col-sm-4-->
+            </div><!--.row-->
+          </section>
           
           <div class="container clearfix">
 
@@ -83,25 +108,53 @@
               <h1 class="text-center title-section">Talleres</h1>
               <div class="row">
                 <div class="col-md-6">
-                  <h4>TALLER DE IMAGEN PERSONAL</h4>
-                  <p>¡Proyecta al mundo quién eres y qué haces!</p>
-                  <p>Cuando te preguntas “¿cómo me veo?” se debe a que muchas veces no sabes lo que te queda bien o si te ves adecuado a la actividad que vas a realizar.</p>
-                  <p>Aquí te ayudaremos a comunicar eficientemente a través de tus prendas y acorde a tus audiencias y objetivos, fortaleciendo al máximo tus virtudes.</p>
+                  <div class="row">
+                    <div class="col-sm-2" align="center">
+                      <img src="./img/icon-user-yellow.png" width="70" height="70" class="img-fluid pb-3">
+                    </div><!--.col-sm-2-->
+                    <div class="col-sm-10">
+                      <h4>TALLER DE IMAGEN PERSONAL</h4>
+                      <p>¡Proyecta al mundo quién eres y qué haces!</p>
+                      <p>Cuando te preguntas “¿cómo me veo?” se debe a que muchas veces no sabes lo que te queda bien o si te ves adecuado a la actividad que vas a realizar.</p>
+                      <p>Aquí te ayudaremos a comunicar eficientemente a través de tus prendas y acorde a tus audiencias y objetivos, fortaleciendo al máximo tus virtudes.</p>
+                    </div><!--.col-sm-10-->
+                  </div><!--.row-->
                 </div><!--.col-md-6-->
                 <div class="col-md-6">
-                  <h4>TALLER DE IMAGEN VERBAL Y LENGUAJE CORPORAL</h4>
-                  <p>¡No sólo hables, exprésate!</p>
-                  <p>A veces creemos que las palabras son suficientes para comunicarnos y lograr que los otros nos entiendan, sin embargo, se requiere tener un mensaje bien estructurado y que tu cuerpo lo acompañe con los gestos, ademanes y posturas correctos para generar el sentimiento que deseas transmitir.</p>
+                  <div class="row">
+                    <div class="col-sm-2" align="center">
+                      <img src="./img/icon-user-blue.png" width="70" height="70" class="img-fluid pb-3">
+                    </div><!--.col-sm-2-->
+                    <div class="col-sm-10">
+                      <h4>TALLER DE IMAGEN VERBAL Y LENGUAJE CORPORAL</h4>
+                      <p>¡No sólo hables, exprésate!</p>
+                      <p>A veces creemos que las palabras son suficientes para comunicarnos y lograr que los otros nos entiendan, sin embargo, se requiere tener un mensaje bien estructurado y que tu cuerpo lo acompañe con los gestos, ademanes y posturas correctos para generar el sentimiento que deseas transmitir.</p>
+                    </div><!--.col-sm-10-->
+                  </div><!--.row-->
                 </div><!--.col-md-6-->
                 <div class="col-md-6">
-                  <h4>TALLER DE IMAGEN PROFESIONAL</h4>
-                  <p>¡Ampliar tus posibilidades de éxito está en tus manos!</p>
-                  <p>Vivimos en un mundo cada vez más competitivo, por ello no basta con ser excelente en lo que haces, también debes saber proyectarlo correctamente, mejorando tus relaciones dentro y fuera del trabajo.</p>
+                  <div class="row">
+                    <div class="col-sm-2" align="center">
+                      <img src="./img/icon-user-green.png" width="70" height="70" class="img-fluid pb-3">
+                    </div><!--.col-sm-2-->
+                    <div class="col-sm-10">
+                      <h4>TALLER DE IMAGEN PROFESIONAL</h4>
+                      <p>¡Ampliar tus posibilidades de éxito está en tus manos!</p>
+                      <p>Vivimos en un mundo cada vez más competitivo, por ello no basta con ser excelente en lo que haces, también debes saber proyectarlo correctamente, mejorando tus relaciones dentro y fuera del trabajo.</p>
+                    </div><!--.col-sm-10-->
+                  </div><!--.row-->
                 </div><!--.col-md-6-->
                 <div class="col-md-6">
-                  <h4>TALLER “ENCUENTRA CHAMBA”</h4>
-                  <p>¡Refleja tu conocimiento y experiencia!</p>
-                  <p>Muéstrale a tu reclutador lo mejor de ti, lanzando los estímulos clave que te destaquen entre tu competencia y te abran las puertas a ese nuevo empleo.</p>
+                  <div class="row">
+                    <div class="col-sm-2" align="center">
+                      <img src="./img/icon-user-orange.png" width="70" height="70" class="img-fluid pb-3">
+                    </div><!--.col-sm-2-->
+                    <div class="col-sm-10">
+                      <h4>TALLER “ENCUENTRA CHAMBA”</h4>
+                      <p>¡Refleja tu conocimiento y experiencia!</p>
+                      <p>Muéstrale a tu reclutador lo mejor de ti, lanzando los estímulos clave que te destaquen entre tu competencia y te abran las puertas a ese nuevo empleo.</p>
+                    </div><!--.col-sm-10-->
+                  </div><!--.row-->
                 </div><!--.col-md-6-->
               </div><!--.row-->
             </section>
@@ -111,25 +164,134 @@
               <h4>TU IMAGEN HABLA BIEN DE TI</h4>
               <p>Buscamos que quienes asistan, analicen y comprendan el impacto y los beneficios del cuidado de la imagen en el ámbito personal y profesional.</p>
               <p>Para ello, evaluamos los hábitos positivos y negativos que a lo largo de la vida todos hemos adquirido, ejemplificando de forma simple y útil cuáles son los que debemos conservar, cuáles incorporar y cuáles desechar.</p>
+              <div class="row" align="center">
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">¡Exprésate!</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">Mi ropa habla</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">Imagen profesional</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">¡Empodérate!</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">Encuentra chamba</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                  <h4 class="title-conference">Servicio al cliente</h4>
+                </div><!--.col-sm-4-->
+              </div><!--.row-->
             </section>
 
             <section id="section_4">
               <h1 class="text-center title-section">Asesorías</h1>
-              <h4>ASESORÍA EN IMAGEN PERSONAL</h4>
+              
+              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PERSONAL</h4>
               <p>Renueva tu imagen, cambia tu vida.</p>
               <p>Si deseas darle un refresh a tu imagen, nosotros te apoyamos. Con base en tu esencia, tus necesidades y las de tus audiencias, y a partir de las formas y medidas de tu cara y cuerpo, te diremos qué tipo de prendas y accesorios son los más adecuados para verte como siempre quisiste y alcanzar tus objetivos.</p>
-
-              <h4>ASESORÍA EN IMAGEN VERBAL Y NO VERBAL</h4>
+              
+              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN VERBAL Y NO VERBAL</h4>
               <p>Comunica lo que quieres de forma adecuada, eficiente y atractiva.</p>
               <p>¿Tienes miedo de hablar en público?, ¿te cuesta decir lo que piensas?, ¿sientes que la gente no te entiende? Ven con nosotros y aprende qué comunica tu cuerpo y cómo debes estructurar mensajes claros y precisos que te ayuden a comunicar lo que quieres y a generar la emoción que deseas.</p>
 
-              <h4>ASESORÍA EN IMAGEN PROFESIONAL</h4>
+              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PROFESIONAL</h4>
               <p>Para ser, hay que parecer.</p>
               <p>Si estás decidido a crecer profesionalmente, esta asesoría es para ti. Aprende a generar, a través de tu ropa, tus palabras, tu cuerpo y tu trato, los estímulos necesarios que acompañen tus conocimientos, capacidades y experiencia para alcanzar el puesto que anhelas.</p>
             </section>
 
             <section id="section_5">
               <h1 class="text-center title-section">Servicios</h1>
+              <div class="row">
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 px-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+                <div class="col-sm-3 pl-0 pr-0">
+                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p class="caption-service">Consulta Express de Imagen Personal</p>
+                    </figcaption><a href="javascript:;"></a>
+                  </figure>
+                </div><!--.col-sm-3-->
+              </div><!--.row-->
             </section>
 
             <section id="section_6">
@@ -194,6 +356,9 @@
                           <label for="message">Asunto</label>
                           <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                         </div><!--.form-group-->
+                      </div><!--.col-md-12-->
+                      <div class="col-md-12">
+                        <button type="submit" class="btn btn-outline-light btn-lg">Enviar</button>
                       </div><!--.col-md-12-->
                     </div><!--.row-->
                   </form>
