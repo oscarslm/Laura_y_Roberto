@@ -59,7 +59,25 @@
       </header>
 
       <section id="slider">
-        
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
+                <div class="container">
+                  
+                </div><!--.container-->
+            </div><!--.swiper-slide-->
+            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
+                <div class="container">
+                  
+                </div><!--.container-->
+            </div><!--.swiper-slide-->
+            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
+                <div class="container">
+                  
+                </div><!--.container-->
+            </div><!--.swiper-slide-->
+          </div><!--.swiper-wrapper-->
+        </div><!--.swiper-container-->
       </section>
 
       <section id="section-welcome">
@@ -234,7 +252,7 @@
 
             <section id="section_5">
               <h1 class="text-center title-section">Servicios</h1>
-              <div class="row">
+              <div class="row" align="center">
                 <div class="col-sm-3 px-0">
                   <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
                     <figcaption class="center-vertically">

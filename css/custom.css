@@ -102,7 +102,8 @@ figcaption > p {
 
 #header {
 	width: 100vw;
-	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.55);
+	transition: 400ms;
 }
 
 .navbar-nav > li {
@@ -123,4 +124,84 @@ figcaption > p {
 .navbar-nav > li > a > span {
 	display: block;
 	font-size: 11px;
+}
+
+header.sticky {
+	background-color: #FFFFFF!important;
+}
+
+
+
+/* ----------------------------------------------------------------
+	Slider CSS
+-----------------------------------------------------------------*/
+
+#slider {
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-width: 1920px) and (min-width: 1601px) {
+	.swiper-slide {
+		height: 100vh;
+	}
+}
+
+@media (max-width: 1600px) and (min-width: 1201px) {
+	.swiper-slide {
+		height: 100vh;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+	.swiper-slide {
+		height: 80vh;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+	.swiper-slide {
+		height: 80vh;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.swiper-slide {
+		height: 70vh;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+	.swiper-slide {
+		height: 60vh;
+	}
+}
+
+@media (max-width: 575px) {
+	.swiper-slide {
+		height: 50vh;
+	}
 }

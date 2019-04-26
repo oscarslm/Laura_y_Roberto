@@ -30,8 +30,10 @@ $(document).ready(function(){
 	$(window).on("scroll", function() {
 	  if($(window).scrollTop() > 40) {
 	    $("#header").addClass("shadow-sm");
+	    $("#header").addClass("sticky");
 	  } else {
 	    $("#header").removeClass("shadow-sm");
+	    $("#header").removeClass("sticky");
 	  }
 	});
 
