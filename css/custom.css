@@ -144,9 +144,8 @@ header.sticky {
     width: 100%;
     height: 100%;
 }
-.swiper-slide {
+/*.swiper-slide {
     text-align: center;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -162,6 +161,18 @@ header.sticky {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}*/
+
+#myVideo {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1921px) {
+	.swiper-slide {
+		height: 100vh;
+	}
 }
 
 @media (max-width: 1920px) and (min-width: 1601px) {
@@ -172,7 +183,7 @@ header.sticky {
 
 @media (max-width: 1600px) and (min-width: 1201px) {
 	.swiper-slide {
-		height: 100vh;
+		height: 90vh;
 	}
 }
 
@@ -196,12 +207,13 @@ header.sticky {
 
 @media (max-width: 767px) and (min-width: 576px) {
 	.swiper-slide {
-		height: 60vh;
+		height: 50vh;
 	}
 }
 
 @media (max-width: 575px) {
 	.swiper-slide {
-		height: 50vh;
+		width: 100%;
+		height: 100%;
 	}
 }

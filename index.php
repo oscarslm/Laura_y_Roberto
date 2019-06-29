@@ -22,59 +22,16 @@
     
     <div id="wrapper">
 
-      <header id="header" class="fixed-top">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="./">Laura y Roberto</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a href="#section_1" class="nav-link">Home <span>Conócenos</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_2" class="nav-link">Talleres <span>¿Quiénes somos?</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_3" class="nav-link">Conferencias <span>¿Quiénes somos?</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_4" class="nav-link">Asesorías <span>¿Quiénes somos?</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_5" class="nav-link">Servicios <span>¿Quiénes somos?</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_6" class="nav-link">Tu Tienda <span>¿Quiénes somos?</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="#section_7" class="nav-link">Contacto <span>¡Llámanos ahora!</span></a>
-                </li>
-              </ul>
-            </div><!--.collapse-->
-          </nav>
-        </div><!--.container-->
-      </header>
+      <?php include './header.php'; ?>
 
       <section id="slider">
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
-                <div class="container">
-                  
-                </div><!--.container-->
-            </div><!--.swiper-slide-->
-            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
-                <div class="container">
-                  
-                </div><!--.container-->
-            </div><!--.swiper-slide-->
-            <div class="swiper-slide" style="background-image:url('https://via.placeholder.com/1920x700')">
-                <div class="container">
-                  
-                </div><!--.container-->
+            <div class="swiper-slide">
+                <video autoplay muted loop id="myVideo">
+                  <source src="./video/intro.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
             </div><!--.swiper-slide-->
           </div><!--.swiper-wrapper-->
         </div><!--.swiper-container-->
@@ -184,52 +141,58 @@
               <p>Para ello, evaluamos los hábitos positivos y negativos que a lo largo de la vida todos hemos adquirido, ejemplificando de forma simple y útil cuáles son los que debemos conservar, cuáles incorporar y cuáles desechar.</p>
               <div class="row" align="center">
                 <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/expresate.jpg" alt="example-image">
                     <figcaption class="center-vertically">
                       <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
+                    </figcaption>
                   </figure>
                   <h4 class="title-conference">¡Exprésate!</h4>
                 </div><!--.col-sm-4-->
                 <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/mi-ropa-habla.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p>Dirigida a mujeres y hombres que buscan mejorar su imagen a través del uso adecuado de ropa y accesorios.</p>
+                    </figcaption>
                   </figure>
                   <h4 class="title-conference">Mi ropa habla</h4>
                 </div><!--.col-sm-4-->
                 <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/imagen-profesional.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p>Dirigida a mujeres y hombres que estén interesados en el manejo de los estímulos para destacar en el am- biente laboral.</p>
+                    </figcaption>
                   </figure>
                   <h4 class="title-conference">Imagen profesional</h4>
                 </div><!--.col-sm-4-->
                 <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/servicio-al-cliente.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p>Enfocada a empresas que estén interesadas en mejorar las habilidades de comunicación y trato del personal encargado de tener contacto con clientes y proveedores.</p>
+                    </figcaption>
+                  </figure>
+                  <h4 class="title-conference">Servicio al cliente</h4>
+                </div><!--.col-sm-4-->
+                <div class="col-sm-4 pl-0 pr-0">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/empoderate.jpg" alt="example-image">
+                    <figcaption class="center-vertically">
+                      <p>Dirigida a mujeres que buscan crecer personal y profesionalmente.</p>
+                    </figcaption>
                   </figure>
                   <h4 class="title-conference">¡Empodérate!</h4>
                 </div><!--.col-sm-4-->
                 <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
+                  <figure class="imghvr-zoom-out">
+                    <img src="./img/encuentra-chamba.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p>Dirigida a universidades que desean impulsar a sus egresados para encontrar el trabajo de sus sueños.</p>
+                    </figcaption>
                   </figure>
                   <h4 class="title-conference">Encuentra chamba</h4>
-                </div><!--.col-sm-4-->
-                <div class="col-sm-4 pl-0 pr-0">
-                  <figure class="imghvr-zoom-out"><img src="https://via.placeholder.com/400" alt="example-image">
-                    <figcaption class="center-vertically">
-                      <p>Dirigida a mujeres y hombres que desean mejorar sus habilidades de comunicación y persuasión.</p>
-                    </figcaption><a href="javascript:;"></a>
-                  </figure>
-                  <h4 class="title-conference">Servicio al cliente</h4>
                 </div><!--.col-sm-4-->
               </div><!--.row-->
             </section>
@@ -253,62 +216,54 @@
             <section id="section_5">
               <h1 class="text-center title-section">Servicios</h1>
               <div class="row" align="center">
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/consulta-express-im.jpg" alt="example-image">
                     <figcaption class="center-vertically">
                       <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                    </figcaption><a href="./imagen-personal.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/consulta-express-iv-inv.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p class="caption-service">Consulta Express en Imagen Verbal y No Verbal</p>
+                    </figcaption><a href="./imagen-verbal-y-no-verbal.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/auditoria-de-closet.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p class="caption-service">Auditoría de Closet</p>
+                    </figcaption><a href="./auditoria-de-closet.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/personal-shopper.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p class="caption-service">Personal Shopper</p>
+                    </figcaption><a href="./personal-shopper.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/bridal-shopper.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p class="caption-service">Bridal Shopper</p>
+                    </figcaption><a href="./bridal-shopper.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
+                <div class="col-sm-12 col-md-6 col-lg-4 px-0 py-0">
+                  <figure class="imghvr-shutter-out-vert">
+                    <img src="./img/cambio-de-imagen.jpg" alt="example-image">
                     <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
+                      <p class="caption-service">Regala un cambio de imagen</p>
+                    </figcaption><a href="./cambio-de-imagen.php"></a>
                   </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 px-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
-                    <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
-                  </figure>
-                </div><!--.col-sm-3-->
-                <div class="col-sm-3 pl-0 pr-0">
-                  <figure class="imghvr-shutter-out-vert"><img src="https://via.placeholder.com/400" alt="example-image">
-                    <figcaption class="center-vertically">
-                      <p class="caption-service">Consulta Express de Imagen Personal</p>
-                    </figcaption><a href="javascript:;"></a>
-                  </figure>
-                </div><!--.col-sm-3-->
+                </div><!--.col-sm-12 col-md-6 col-lg-4-->
               </div><!--.row-->
             </section>
 
@@ -376,7 +331,7 @@
                         </div><!--.form-group-->
                       </div><!--.col-md-12-->
                       <div class="col-md-12">
-                        <button type="submit" class="btn btn-outline-light btn-lg">Enviar</button>
+                        <button type="submit" class="btn btn-info btn-lg">Enviar mensaje</button>
                       </div><!--.col-md-12-->
                     </div><!--.row-->
                   </form>
@@ -393,9 +348,7 @@
         
       </section><!--#content-->
 
-      <footer id="footer">
-        
-      </footer>
+      <?php include './footer.php'; ?>
 
     </div><!--#wrapper-->
 
