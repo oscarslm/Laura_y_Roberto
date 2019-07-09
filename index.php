@@ -39,13 +39,13 @@
 
       <section id="section-welcome">
         <div class="container">
-          <div class="row center-vertically">
-              <div class="col-sm-6">
+          <div class="row pt-3 center-vertically">
+              <div class="col-md-6">
                 <h1 class="text-center">¡Bienvenidos!</h1>
-              </div><!--.col-sm-6-->
-              <div class="col-sm-6">
+              </div><!--.col-md-6-->
+              <div class="col-md-6">
                 <p>Somos consultores dedicados a ayudarte a generar estímulos eficientes que te permitan crecer personal y profesionalmente mediante tu aspecto personal, tus palabras y tus acciones.</p>
-              </div><!--.col-sm-6-->
+              </div><!--.col-md-6-->
             </div><!--.row-->
         </div><!--.container-->
       </section>
@@ -56,23 +56,29 @@
 
           <section id="section_1">
             <div class="row">
-              <div class="col-sm-4">
-                <div class="container">
-                  <h5>Soy Roberto</h5>
-                  <p>¡Hola! Mi nombre es Roberto Franco Briones y soy maestro en Ingeniería en Imagen Pública, profesión que he escogido porque soy un apasionado de la comunicación en todas sus formas. A lo largo de mi trayectoria me he enfocado a ayudar a mejorar los estímulos que lanzamos. ¡Será un gusto trabajar contigo y aprender de ti!</p>
-                </div><!--.container-->
+              <div class="col-sm-12 col-md-4 col-lg-4 px-0">
+                <div class="bg-1">
+                  <div class="container">
+                    <h5>Soy Roberto</h5>
+                    <p>¡Hola! Mi nombre es Roberto Franco Briones y soy maestro en Ingeniería en Imagen Pública, profesión que he escogido porque soy un apasionado de la comunicación en todas sus formas. A lo largo de mi trayectoria me he enfocado a ayudar a mejorar los estímulos que lanzamos. ¡Será un gusto trabajar contigo y aprender de ti!</p>
+                  </div><!--.container-->
+                </div>
               </div><!--.col-sm-4-->
-              <div class="col-sm-4">
-                <div class="container">
-                  <h5>Soy Laura</h5>
-                  <p>¿Cómo estás? Mi nombre es Laura Saavedra Granja, soy maestra en Ingeniería en Imagen Pública y estoy convencida de que para destacar y alcanzar todos nuestros sueños y metas es fundamental confiar y estar enamorado de nosotros mismos y de todo lo que hacemos. Por esta razón, elegí el camino de la imagen: para ayudar a las personas a potenciar sus cualidades y capacidades.</p>
-                </div><!--.container-->
+              <div class="col-sm-12 col-md-4 col-lg-4 px-0">
+                <div class="bg-2">
+                  <div class="container">
+                    <h5>Soy Laura</h5>
+                    <p>¿Cómo estás? Mi nombre es Laura Saavedra Granja, soy maestra en Ingeniería en Imagen Pública y estoy convencida de que para destacar y alcanzar todos nuestros sueños y metas es fundamental confiar y estar enamorado de nosotros mismos y de todo lo que hacemos. Por esta razón, elegí el camino de la imagen: para ayudar a las personas a potenciar sus cualidades y capacidades.</p>
+                  </div><!--.container-->
+                </div>
               </div><!--.col-sm-4-->
-              <div class="col-sm-4">
-                <div class="container">
-                  <h5>¿Por qué es importante cuidar los estímulos que lanzamos?</h5>
-                  <p>A través de la imagen puedes generar la confianza y credibilidad necesarias frente a tu jefe, clientes, proveedores e incluso, amigos y familiares, y abrirte las puertas que necesitas para alcanzar todas las metas que te propongas.</p>
-                </div><!--.container-->
+              <div class="col-sm-12 col-md-4 col-lg-4 px-0">
+                <div class="bg-3">
+                  <div class="container">
+                    <h5>¿Por qué es importante cuidar los estímulos que lanzamos?</h5>
+                    <p>A través de la imagen puedes generar la confianza y credibilidad necesarias frente a tu jefe, clientes, proveedores e incluso, amigos y familiares, y abrirte las puertas que necesitas para alcanzar todas las metas que te propongas.</p>
+                  </div><!--.container-->
+                </div>
               </div><!--.col-sm-4-->
             </div><!--.row-->
           </section>
@@ -82,7 +88,7 @@
             <section id="section_2">
               <h1 class="text-center title-section">Talleres</h1>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 bg-taller-1">
                   <div class="row">
                     <div class="col-sm-2" align="center">
                       <img src="./img/icon-user-yellow.png" width="70" height="70" class="img-fluid pb-3">
@@ -94,20 +100,6 @@
                       <p>Aquí te ayudaremos a comunicar eficientemente a través de tus prendas y acorde a tus audiencias y objetivos, fortaleciendo al máximo tus virtudes.</p>
                     </div><!--.col-sm-10-->
                   </div><!--.row-->
-                </div><!--.col-md-6-->
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-2" align="center">
-                      <img src="./img/icon-user-blue.png" width="70" height="70" class="img-fluid pb-3">
-                    </div><!--.col-sm-2-->
-                    <div class="col-sm-10">
-                      <h4>TALLER DE IMAGEN VERBAL Y LENGUAJE CORPORAL</h4>
-                      <p>¡No sólo hables, exprésate!</p>
-                      <p>A veces creemos que las palabras son suficientes para comunicarnos y lograr que los otros nos entiendan, sin embargo, se requiere tener un mensaje bien estructurado y que tu cuerpo lo acompañe con los gestos, ademanes y posturas correctos para generar el sentimiento que deseas transmitir.</p>
-                    </div><!--.col-sm-10-->
-                  </div><!--.row-->
-                </div><!--.col-md-6-->
-                <div class="col-md-6">
                   <div class="row">
                     <div class="col-sm-2" align="center">
                       <img src="./img/icon-user-green.png" width="70" height="70" class="img-fluid pb-3">
@@ -119,7 +111,17 @@
                     </div><!--.col-sm-10-->
                   </div><!--.row-->
                 </div><!--.col-md-6-->
-                <div class="col-md-6">
+                <div class="col-md-6 bg-taller-2">
+                  <div class="row">
+                    <div class="col-sm-2" align="center">
+                      <img src="./img/icon-user-blue.png" width="70" height="70" class="img-fluid pb-3">
+                    </div><!--.col-sm-2-->
+                    <div class="col-sm-10">
+                      <h4>TALLER DE IMAGEN VERBAL Y LENGUAJE CORPORAL</h4>
+                      <p>¡No sólo hables, exprésate!</p>
+                      <p>A veces creemos que las palabras son suficientes para comunicarnos y lograr que los otros nos entiendan, sin embargo, se requiere tener un mensaje bien estructurado y que tu cuerpo lo acompañe con los gestos, ademanes y posturas correctos para generar el sentimiento que deseas transmitir.</p>
+                    </div><!--.col-sm-10-->
+                  </div><!--.row-->
                   <div class="row">
                     <div class="col-sm-2" align="center">
                       <img src="./img/icon-user-orange.png" width="70" height="70" class="img-fluid pb-3">
@@ -199,18 +201,19 @@
 
             <section id="section_4">
               <h1 class="text-center title-section">Asesorías</h1>
-              
-              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PERSONAL</h4>
-              <p>Renueva tu imagen, cambia tu vida.</p>
-              <p>Si deseas darle un refresh a tu imagen, nosotros te apoyamos. Con base en tu esencia, tus necesidades y las de tus audiencias, y a partir de las formas y medidas de tu cara y cuerpo, te diremos qué tipo de prendas y accesorios son los más adecuados para verte como siempre quisiste y alcanzar tus objetivos.</p>
-              
-              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN VERBAL Y NO VERBAL</h4>
-              <p>Comunica lo que quieres de forma adecuada, eficiente y atractiva.</p>
-              <p>¿Tienes miedo de hablar en público?, ¿te cuesta decir lo que piensas?, ¿sientes que la gente no te entiende? Ven con nosotros y aprende qué comunica tu cuerpo y cómo debes estructurar mensajes claros y precisos que te ayuden a comunicar lo que quieres y a generar la emoción que deseas.</p>
-
-              <h4><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PROFESIONAL</h4>
-              <p>Para ser, hay que parecer.</p>
-              <p>Si estás decidido a crecer profesionalmente, esta asesoría es para ti. Aprende a generar, a través de tu ropa, tus palabras, tu cuerpo y tu trato, los estímulos necesarios que acompañen tus conocimientos, capacidades y experiencia para alcanzar el puesto que anhelas.</p>
+              <div class="row bg-advisory">
+                <div class="col-sm-12">
+                  <h4 class="title-advisory"><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PERSONAL</h4>
+                  <p><strong>Renueva tu imagen, cambia tu vida.</strong></p>
+                  <p>Si deseas darle un refresh a tu imagen, nosotros te apoyamos. Con base en tu esencia, tus necesidades y las de tus audiencias, y a partir de las formas y medidas de tu cara y cuerpo, te diremos qué tipo de prendas y accesorios son los más adecuados para verte como siempre quisiste y alcanzar tus objetivos.</p>
+                  <h4 class="title-advisory"><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN VERBAL Y NO VERBAL</h4>
+                  <p><strong>Comunica lo que quieres de forma adecuada, eficiente y atractiva.</strong></p>
+                  <p>¿Tienes miedo de hablar en público?, ¿te cuesta decir lo que piensas?, ¿sientes que la gente no te entiende? Ven con nosotros y aprende qué comunica tu cuerpo y cómo debes estructurar mensajes claros y precisos que te ayuden a comunicar lo que quieres y a generar la emoción que deseas.</p>
+                  <h4 class="title-advisory"><img src="./img/icon-star.png" width="40" height="40"> ASESORÍA EN IMAGEN PROFESIONAL</h4>
+                  <p><strong>Para ser, hay que parecer.</strong></p>
+                  <p>Si estás decidido a crecer profesionalmente, esta asesoría es para ti. Aprende a generar, a través de tu ropa, tus palabras, tu cuerpo y tu trato, los estímulos necesarios que acompañen tus conocimientos, capacidades y experiencia para alcanzar el puesto que anhelas.</p>
+                </div><!--.col-sm-12-->
+              </div><!--.row-->
             </section>
 
             <section id="section_5">
@@ -269,17 +272,20 @@
 
             <section id="section_6">
               <h1 class="text-center title-section">Tu Tienda</h1>
-              <div class="row">
-                <div class="col-sm-6">
-                  <p>Proactivity Shopper</p>
-                  <p>¡Evoluciona, agrega valor y vende!</p>
+              <div class="row center-vertically">
+                <div class="col-lg-5">
+                  <p class="title-store">Proactivity Shopper</p>
+                  <p><strong>¡Evoluciona, agrega valor y vende!</strong></p>
                   <p>Llévanos a tu tienda y te ayudaremos a consentir a tus clientes y agregar valor a tu oferta. A través de un sencillo análisis, les diremos a tus clientes qué prendas les van mejor de acuerdo con sus características físicas, lo que sin duda potenciará el deseo de compra y promoverá la lealtad hacia tu marca.</p>
-                </div><!--.col-sm-6-->
-                <div class="col-sm-6">
-                  <p>Diseño de escaparate</p>
-                  <p>¡El amor sí entra por los ojos!</p>
+                </div><!--.col-lg-5-->
+                <div class="col-lg-2 px-0">
+                  <img src="./img/tu-tienda-bg.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-5">
+                  <p class="title-store">Diseño de escaparate</p>
+                  <p><strong>¡El amor sí entra por los ojos!</strong></p>
                   <p>Analizando tus productos, tu marca y el mercado al que vas dirigido, haremos que tu escaparate sea sumamente atractivo y provoque el deseo de compra mediante las prendas y accesorios que ofreces.</p>
-                </div><!--.col-sm-6-->
+                </div><!--.col-lg-5-->
               </div><!--.row-->
             </section>
 
@@ -317,16 +323,16 @@
                         <div class="form-group">
                           <label for="name">Servicio</label>
                           <select class="custom-select custom-select-lg mb-3">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option selected>Selecciona</option>
+                            <option value="1">Consultoría</option>
+                            <option value="2">Servicio</option>
+                            <option value="3">Asesoría</option>
                           </select>
                         </div><!--.form-group-->
                       </div><!--.col-md-4-->
                       <div class="col-md-12">
                         <div class="form-group">
-                          <label for="message">Asunto</label>
+                          <label for="message">Mensaje</label>
                           <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                         </div><!--.form-group-->
                       </div><!--.col-md-12-->

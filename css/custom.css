@@ -54,10 +54,78 @@ body {
     padding: 80px 0;
 }
 
+strong {
+	font-weight: 700;
+}
+
+.title-store {
+	font-weight: 700;
+}
+
+.title-advisory {
+	font-weight: 700;
+}
+
+.bg-advisory {
+	background-image: url('../img/asesorias-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+.bg-taller-1 {
+	background-image: url('../img/bg-talleres-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bg-taller-2 {
+	background-image: url('../img/bg-talleres-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .center-vertically {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+.bg-1 {
+	width: 100%;
+	background-image: url('../img/bg-roberto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: 330px;
+    padding: 2em;
+    color: #FFFFFF;
+}
+
+.bg-2 {
+	width: 100%;
+	background-image: url('../img/bg-laura.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: 330px;
+    padding: 2em;
+    color: #FFFFFF;
+}
+
+.bg-3 {
+	width: 100%;
+	background-image: url('../img/bg-laura-y-roberto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: 330px;
+    padding: 2em;
+    color: #FFFFFF;
 }
 
 .form-control, .custom-select {
@@ -130,6 +198,15 @@ header.sticky {
 	background-color: #FFFFFF!important;
 }
 
+#footer {
+	background-color: #572364;
+	color: #FFFFFF;
+}
+
+.widget-footer {
+	padding: 2em 0;
+}
+
 
 
 /* ----------------------------------------------------------------
@@ -183,31 +260,31 @@ header.sticky {
 
 @media (max-width: 1600px) and (min-width: 1201px) {
 	.swiper-slide {
-		height: 90vh;
+		height: 100%;
 	}
 }
 
 @media (max-width: 1200px) and (min-width: 1025px) {
 	.swiper-slide {
-		height: 80vh;
+		height: 100%;
 	}
 }
 
 @media (max-width: 1024px) and (min-width: 992px) {
 	.swiper-slide {
-		height: 80vh;
+		height: 100%;
 	}
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
 	.swiper-slide {
-		height: 70vh;
+		height: 100%;
 	}
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
 	.swiper-slide {
-		height: 50vh;
+		height: 100%;
 	}
 }
 

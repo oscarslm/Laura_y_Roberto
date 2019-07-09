@@ -35,7 +35,10 @@
 
             <div class="row">
               <div class="col-sm-5">
-                
+                <video controls>
+                  <source src="./video/auditoria-de-closet.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
               </div><!--.col-sm-5-->
               <div class="col-sm-7">
                 <h3 class="title-service"><?php echo $title ?></h3>
@@ -60,5 +63,8 @@
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="./js/functions.js"></script>
+    <script type="text/javascript">
+      $("#header").removeClass("fixed-top");
+    </script>
   </body>
 </html>
