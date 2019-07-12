@@ -21,10 +21,6 @@ $(document).ready(function(){
 	        }, 300);
 	    });
 	});
-
-	    // $('.nav-item:link').addClass('inactive');    
-	    // $('.nav-item').eq(0).addClass('active');
-	    // $('.nav-item:link').eq(0).removeClass('inactive');
 	
 
 	$(window).on("scroll", function() {

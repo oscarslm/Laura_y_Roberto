@@ -25,26 +25,26 @@
     
     <div id="wrapper">
 
-      <?php include './header.php'; ?>
+      <?php include './header-2.php'; ?>
       
-      <section id="content">
+      <section id="content" class="center-vertically">
 
         <div class="content-wrap">
           
           <div class="container clearfix">
 
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-lg-5" align="center">
                 <video controls>
                   <source src="./video/personal-shopper.mp4" type="video/mp4">
                   Your browser does not support HTML5 video.
                 </video>
-              </div><!--.col-sm-5-->
-              <div class="col-sm-7">
-                <h3 class="title-service"><?php echo $title ?></h3>
+              </div><!--.col-lg-5-->
+              <div class="col-lg-7">
+                <h3 class="title-service mt-4"><?php echo $title ?></h3>
                 <p class="subtitle-service">Bueno, bonito y barato ¡Vámonos de compras!</p>
                 <p class="desc-service">Te acompañamos a renovar tu guardarropa o bien, a elegir lo que necesitas para esa ocasión especial (entrevista de trabajo, boda, graduación, etc.). Juntos elegiremos las prendas que más te favorezcan. Impacta como nunca lo habías hecho.</p>
-              </div><!--.col-sm-7-->
+              </div><!--.col-lg-7-->
             </div><!--.row-->
             
           </div><!--.container-->

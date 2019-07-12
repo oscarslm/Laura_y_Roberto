@@ -25,26 +25,26 @@
     
     <div id="wrapper">
 
-      <?php include './header.php'; ?>
+      <?php include './header-2.php'; ?>
       
-      <section id="content">
+      <section id="content" class="center-vertically">
 
         <div class="content-wrap">
           
           <div class="container clearfix">
 
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-lg-5" align="center">
                 <video controls>
                   <source src="./video/bridal-shopper.mp4" type="video/mp4">
                   Your browser does not support HTML5 video.
                 </video>
-              </div><!--.col-sm-5-->
-              <div class="col-sm-7">
-                <h3 class="title-service"><?php echo $title ?></h3>
+              </div><!--.col-lg-5-->
+              <div class="col-lg-7">
+                <h3 class="title-service mt-4"><?php echo $title ?></h3>
                 <p class="subtitle-service">No hay novia fea... pero hermosas pocas</p>
                 <p class="desc-service">En este día tan especial sabemos que quieres verte espectacular, por lo que te ayudaremos a elegir el vestido, peinado, maquilla- je y accesorios que saquen la mejor versión de ti. Si así lo deseas, en este servicio puedes incluir a tus amigos y familiares más cercanos.</p>
-              </div><!--.col-sm-7-->
+              </div><!--.col-lg-7-->
             </div><!--.row-->
             
           </div><!--.container-->

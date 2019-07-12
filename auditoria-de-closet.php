@@ -25,26 +25,26 @@
     
     <div id="wrapper">
 
-      <?php include './header.php'; ?>
+      <?php include './header-2.php'; ?>
       
-      <section id="content">
+      <section id="content" class="center-vertically">
 
         <div class="content-wrap">
           
           <div class="container clearfix">
 
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-lg-5" align="center">
                 <video controls>
                   <source src="./video/auditoria-de-closet.mp4" type="video/mp4">
                   Your browser does not support HTML5 video.
                 </video>
-              </div><!--.col-sm-5-->
-              <div class="col-sm-7">
-                <h3 class="title-service"><?php echo $title ?></h3>
+              </div><!--.col-lg-5-->
+              <div class="col-lg-7">
+                <h3 class="title-service mt-4"><?php echo $title ?></h3>
                 <p class="subtitle-service">¿De verdad no tienes nada qué ponerte?</p>
                 <p class="desc-service">Ábrenos la puerta de tu clóset para descubrir qué prendas te favorecen y cuáles debes desechar, así cómo qué tipo de prendas dominan en tu armario y cuáles te hacen falta. A su vez, te enseñaremos a armar combinaciones que te permitan sacar el mayor provecho a tus prendas y proyectarte correctamente todos los días de la semana.</p>
-              </div><!--.col-sm-7-->
+              </div><!--.col-lg-7-->
             </div><!--.row-->
             
           </div><!--.container-->
